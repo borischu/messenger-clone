@@ -1,6 +1,6 @@
 # messenger-clone
 
-This is a Facebook Messenger Clone made using [Next.js](https://nextjs.org/)
+This is a Facebook Messenger Clone made using [Next.js](https://nextjs.org/), React, MongoDB, and Node.js
 
 ## Run locally
 
