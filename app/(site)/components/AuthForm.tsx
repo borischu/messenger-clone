@@ -3,7 +3,6 @@
 import axios from 'axios';
 import { useState, useCallback, useEffect } from 'react'
 import { useForm, FieldValues, SubmitHandler, Field } from 'react-hook-form'
-import { BsFacebook } from 'react-icons/bs'
 import { BsGoogle } from 'react-icons/bs'
 
 import Input from '@/app/components/inputs/Input';
@@ -162,10 +161,6 @@ const AuthForm = () => {
           </div>
 
           <div className="mt-6 flex gap-2">
-            <AuthSocialButton 
-              icon={BsFacebook}
-              onClick={() => socialAction('facebook')}
-            />
             <AuthSocialButton 
               icon={BsGoogle}
               onClick={() => socialAction('google')}
